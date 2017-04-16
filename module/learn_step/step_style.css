@@ -1,0 +1,45 @@
+/* 子元素靠左叠加，类似于float:left */
+/* 使两边的元素靠边，所有元素之间间距平分 */
+/* 垂直居中 */
+/* 水平居中 */
+/* 垂直水平居中 */
+/* 强制不换行 */
+/* 自动换行 */
+/* 强制英文单词断行 */
+/* 隐藏 */
+/* 显现 */
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/WebStormZone\/IT\/task15\/module\/learn_step\/step_style\.less}line{font-family:\000033}}
+.step {
+  display: flex;
+  align-items: center;
+  width: 182px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/WebStormZone\/IT\/task15\/module\/learn_step\/step_style\.less}line{font-family:\000037}}
+.step .arrow {
+  display: inline-block;
+  width: 20px;
+  height: 18px;
+  background: url(../../images/home_page_howtolearn_arrow.png) no-repeat;
+  background-size: 20px 18px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/WebStormZone\/IT\/task15\/module\/learn_step\/step_style\.less}line{font-family:\0000315}}
+.step .step-num {
+  display: inline-block;
+  text-align: center;
+  margin-left: 5px;
+  width: 32px;
+  height: 32px;
+  line-height: 32px;
+  color: #29b078;
+  border: none;
+  border-radius: 50%;
+  box-shadow: 1px 1px 1px #e6e6e6;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/WebStormZone\/IT\/task15\/module\/learn_step\/step_style\.less}line{font-family:\0000328}}
+.step .step-info {
+  display: inline-block;
+  margin-left: 5px;
+  width: 112px;
+  font-size: 10px;
+}
+/*# sourceMappingURL=step_style.css.map */

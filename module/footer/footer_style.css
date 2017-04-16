@@ -1,0 +1,77 @@
+/* 子元素靠左叠加，类似于float:left */
+/* 使两边的元素靠边，所有元素之间间距平分 */
+/* 垂直居中 */
+/* 水平居中 */
+/* 垂直水平居中 */
+/* 强制不换行 */
+/* 自动换行 */
+/* 强制英文单词断行 */
+/* 隐藏 */
+/* 显现 */
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/WebStormZone\/IT\/task15\/module\/footer\/footer_style\.less}line{font-family:\000034}}
+footer {
+  padding-top: 20px;
+  padding-left: 170px;
+  padding-right: 170px;
+  color: #ffffff;
+  background-color: #29b078;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/WebStormZone\/IT\/task15\/module\/footer\/footer_style\.less}line{font-family:\0000310}}
+footer .other {
+  display: flex;
+  justify-content: space-between;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/WebStormZone\/IT\/task15\/module\/footer\/footer_style\.less}line{font-family:\0000314}}
+footer .other div .o-title {
+  font-size: 14px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/WebStormZone\/IT\/task15\/module\/footer\/footer_style\.less}line{font-family:\0000318}}
+footer .other .con-us {
+  display: inline-block;
+  vertical-align: top;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/WebStormZone\/IT\/task15\/module\/footer\/footer_style\.less}line{font-family:\0000321}}
+footer .other .con-us .o-con-site {
+  margin-top: 58px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/WebStormZone\/IT\/task15\/module\/footer\/footer_style\.less}line{font-family:\0000323}}
+footer .other .con-us .o-con-site a {
+  font-size: 12px;
+  color: #ffffff;
+  text-decoration: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/WebStormZone\/IT\/task15\/module\/footer\/footer_style\.less}line{font-family:\0000331}}
+footer .other .other-page ul {
+  margin-top: 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/WebStormZone\/IT\/task15\/module\/footer\/footer_style\.less}line{font-family:\0000333}}
+footer .other .other-page ul li {
+  display: inline-block;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/WebStormZone\/IT\/task15\/module\/footer\/footer_style\.less}line{font-family:\0000335}}
+footer .other .other-page ul li a {
+  color: #ffffff;
+  font-size: 12px;
+  text-decoration: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/WebStormZone\/IT\/task15\/module\/footer\/footer_style\.less}line{font-family:\0000344}}
+footer .other .QRcode img {
+  width: 84px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/WebStormZone\/IT\/task15\/module\/footer\/footer_style\.less}line{font-family:\0000349}}
+footer .record {
+  text-align: center;
+  font-size: 10px;
+}
+@media screen and (max-width: 768px) {
+  @media -sass-debug-info{filename{font-family:file\:\/\/F\:\/WebStormZone\/IT\/task15\/module\/footer\/footer_style\.less}line{font-family:\0000355}}
+  footer {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  @media -sass-debug-info{filename{font-family:file\:\/\/F\:\/WebStormZone\/IT\/task15\/module\/footer\/footer_style\.less}line{font-family:\0000358}}
+  footer .other {
+    flex-direction: column;
+  }
+}
+/*# sourceMappingURL=footer_style.css.map */

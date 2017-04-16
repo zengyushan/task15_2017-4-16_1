@@ -1,0 +1,167 @@
+@import "../../styles/reset.css";
+@import "../../styles/whole.less";
+@import "../../styles/layout.less";
+#bundle{
+  .border-t(){
+    border-top: 1px solid #eeeded;
+  }
+  .border-b(){
+    border-bottom: 1px solid #eeeded;
+  }
+  .border-l(){
+    border-left: 1px solid #eeeded;
+  }
+  .border-r(){
+    border-right: 1px solid #eeeded;
+  }
+}
+.whole-vocation{
+  .pr;
+  #bundle > .border-b;
+  .hover-bg{
+    .pa;
+    visibility: hidden;
+    .hover-title{
+
+    }
+    .hover-content{
+
+    }
+  }
+  .v-title{
+    //border: solid;
+    .df-jc-fs;
+    padding: 6px;
+    height: auto;
+    min-height: 68px;
+    #bundle > .border-b;
+    img{
+      //.fl;
+      margin-right: 5px;
+      width: 67px;
+      height: 67px;
+    }
+    .t-text{
+      //border: solid;
+      .dib;
+      width: 71%;
+      .t-word{
+        //border: solid;
+        .fs12;
+        font-weight: 600;
+      }
+      .t-info{
+        //border: solid;
+        .fs10;
+        .wb-b;
+      }
+    }
+  }
+  .job-diff{
+    overflow: hidden;
+    ul{
+      //border: 1px solid #eeeded;
+      li{
+        #bundle > .border-b;
+        box-sizing: border-box;
+        .dib;
+        .fl;
+        padding: 6px;
+        width: 50%;
+        .grey-c;
+      }
+      .sill{
+        background: url(../../images/vocation_star.png) no-repeat;
+        background-size: 13px ;
+        background-position: 33px 6px;
+        #bundle > .border-r;
+      }
+      .difficulty{
+        background: url(../../images/vocation_star.png) no-repeat,url(../../images/vocation_star.png) no-repeat;
+        background-size: 13px ;
+        background-position: 50px 6px,67px 6px;
+      }
+      .growth{
+        #bundle > .border-r;
+        span{
+          .black-c;
+        }
+        .num{
+          .red-c;
+        }
+      }
+      .rare{
+        .growth;
+      }
+    }
+  }
+  .salary-whole{
+    //border: solid;
+    .df-jc-fs;
+
+    div{
+      //border: solid;
+      .df-ajc;
+      width: 35%;
+      height: 73px;
+      .grey-c;
+      #bundle > .border-r;
+      #bundle > .border-b;
+    }
+    .salary{
+      width: 65%;
+      li{
+        .df-ac;
+        justify-content: space-between;
+        width: 100%;
+        height: 24px;
+        #bundle > .border-b;
+        .work-year{
+          margin-left: 6px;
+        }
+        .salary-mon{
+          margin-right: 6px;
+        }
+      }
+
+    }
+  }
+  .learn-num{
+    .df-ac;
+    margin-left: 6px;
+    height: 21px;
+    .fs12;
+    font-weight: 600;
+    #bundle > .border-b;
+    span{
+      .red-c;
+    }
+  }
+  .mini-hint{
+    .df-ac;
+    margin-left: 6px;
+    margin-right: 6px;
+    height: auto;
+    min-height: 21px;
+    .grey-c;
+  }
+}
+.whole-vocation:hover .hover-bg{
+  .pa;
+  width: 100%;
+  height: 100%;
+  .white-c;
+  visibility: visible;
+  background: url(../../images/vocation_hover_bg.png) no-repeat;
+  background-size: 100% 100%;
+  opacity: .8;
+  .hover-title{
+    .tac;
+    margin-top: 20px;
+    .fs16;
+  }
+  .hover-content{
+    margin: 10px 20px 20px;
+    .fs12;
+  }
+}

@@ -1,0 +1,186 @@
+@import "../../styles/reset.css";
+/* 子元素靠左叠加，类似于float:left */
+/* 使两边的元素靠边，所有元素之间间距平分 */
+/* 垂直居中 */
+/* 水平居中 */
+/* 垂直水平居中 */
+/* 强制不换行 */
+/* 自动换行 */
+/* 强制英文单词断行 */
+/* 隐藏 */
+/* 显现 */
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/WebStormZone\/IT\/task15\/module\/vocation_info\/vi_style\.less}line{font-family:\0000318}}
+.whole-vocation {
+  position: relative;
+  border-bottom: 1px solid #eeeded;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/WebStormZone\/IT\/task15\/module\/vocation_info\/vi_style\.less}line{font-family:\0000321}}
+.whole-vocation .hover-bg {
+  position: absolute;
+  visibility: hidden;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/WebStormZone\/IT\/task15\/module\/vocation_info\/vi_style\.less}line{font-family:\0000331}}
+.whole-vocation .v-title {
+  display: flex;
+  justify-content: flex-start;
+  padding: 6px;
+  height: auto;
+  min-height: 68px;
+  border-bottom: 1px solid #eeeded;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/WebStormZone\/IT\/task15\/module\/vocation_info\/vi_style\.less}line{font-family:\0000338}}
+.whole-vocation .v-title img {
+  margin-right: 5px;
+  width: 67px;
+  height: 67px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/WebStormZone\/IT\/task15\/module\/vocation_info\/vi_style\.less}line{font-family:\0000344}}
+.whole-vocation .v-title .t-text {
+  display: inline-block;
+  width: 71%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/WebStormZone\/IT\/task15\/module\/vocation_info\/vi_style\.less}line{font-family:\0000348}}
+.whole-vocation .v-title .t-text .t-word {
+  font-size: 12px;
+  font-weight: 600;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/WebStormZone\/IT\/task15\/module\/vocation_info\/vi_style\.less}line{font-family:\0000353}}
+.whole-vocation .v-title .t-text .t-info {
+  font-size: 10px;
+  word-break: break-all;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/WebStormZone\/IT\/task15\/module\/vocation_info\/vi_style\.less}line{font-family:\0000360}}
+.whole-vocation .job-diff {
+  overflow: hidden;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/WebStormZone\/IT\/task15\/module\/vocation_info\/vi_style\.less}line{font-family:\0000364}}
+.whole-vocation .job-diff ul li {
+  border-bottom: 1px solid #eeeded;
+  box-sizing: border-box;
+  display: inline-block;
+  float: left;
+  padding: 6px;
+  width: 50%;
+  color: #a1a1a1;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/WebStormZone\/IT\/task15\/module\/vocation_info\/vi_style\.less}line{font-family:\0000373}}
+.whole-vocation .job-diff ul .sill {
+  background: url(../../images/vocation_star.png) no-repeat;
+  background-size: 13px ;
+  background-position: 33px 6px;
+  border-right: 1px solid #eeeded;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/WebStormZone\/IT\/task15\/module\/vocation_info\/vi_style\.less}line{font-family:\0000379}}
+.whole-vocation .job-diff ul .difficulty {
+  background: url(../../images/vocation_star.png) no-repeat, url(../../images/vocation_star.png) no-repeat;
+  background-size: 13px ;
+  background-position: 50px 6px,67px 6px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/WebStormZone\/IT\/task15\/module\/vocation_info\/vi_style\.less}line{font-family:\0000384}}
+.whole-vocation .job-diff ul .growth {
+  border-right: 1px solid #eeeded;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/WebStormZone\/IT\/task15\/module\/vocation_info\/vi_style\.less}line{font-family:\0000386}}
+.whole-vocation .job-diff ul .growth span {
+  color: #333333;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/WebStormZone\/IT\/task15\/module\/vocation_info\/vi_style\.less}line{font-family:\0000389}}
+.whole-vocation .job-diff ul .growth .num {
+  color: #f01400;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/WebStormZone\/IT\/task15\/module\/vocation_info\/vi_style\.less}line{font-family:\0000393}}
+.whole-vocation .job-diff ul .rare {
+  border-right: 1px solid #eeeded;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/WebStormZone\/IT\/task15\/module\/vocation_info\/vi_style\.less}line{font-family:\0000386}}
+.whole-vocation .job-diff ul .rare span {
+  color: #333333;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/WebStormZone\/IT\/task15\/module\/vocation_info\/vi_style\.less}line{font-family:\0000389}}
+.whole-vocation .job-diff ul .rare .num {
+  color: #f01400;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/WebStormZone\/IT\/task15\/module\/vocation_info\/vi_style\.less}line{font-family:\0000398}}
+.whole-vocation .salary-whole {
+  display: flex;
+  justify-content: flex-start;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/WebStormZone\/IT\/task15\/module\/vocation_info\/vi_style\.less}line{font-family:\00003102}}
+.whole-vocation .salary-whole div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 35%;
+  height: 73px;
+  color: #a1a1a1;
+  border-right: 1px solid #eeeded;
+  border-bottom: 1px solid #eeeded;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/WebStormZone\/IT\/task15\/module\/vocation_info\/vi_style\.less}line{font-family:\00003111}}
+.whole-vocation .salary-whole .salary {
+  width: 65%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/WebStormZone\/IT\/task15\/module\/vocation_info\/vi_style\.less}line{font-family:\00003113}}
+.whole-vocation .salary-whole .salary li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 24px;
+  border-bottom: 1px solid #eeeded;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/WebStormZone\/IT\/task15\/module\/vocation_info\/vi_style\.less}line{font-family:\00003119}}
+.whole-vocation .salary-whole .salary li .work-year {
+  margin-left: 6px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/WebStormZone\/IT\/task15\/module\/vocation_info\/vi_style\.less}line{font-family:\00003122}}
+.whole-vocation .salary-whole .salary li .salary-mon {
+  margin-right: 6px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/WebStormZone\/IT\/task15\/module\/vocation_info\/vi_style\.less}line{font-family:\00003129}}
+.whole-vocation .learn-num {
+  display: flex;
+  align-items: center;
+  margin-left: 6px;
+  height: 21px;
+  font-size: 12px;
+  font-weight: 600;
+  border-bottom: 1px solid #eeeded;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/WebStormZone\/IT\/task15\/module\/vocation_info\/vi_style\.less}line{font-family:\00003136}}
+.whole-vocation .learn-num span {
+  color: #f01400;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/WebStormZone\/IT\/task15\/module\/vocation_info\/vi_style\.less}line{font-family:\00003140}}
+.whole-vocation .mini-hint {
+  display: flex;
+  align-items: center;
+  margin-left: 6px;
+  margin-right: 6px;
+  height: auto;
+  min-height: 21px;
+  color: #a1a1a1;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/WebStormZone\/IT\/task15\/module\/vocation_info\/vi_style\.less}line{font-family:\00003149}}
+.whole-vocation:hover .hover-bg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  color: #ffffff;
+  visibility: visible;
+  background: url(../../images/vocation_hover_bg.png) no-repeat;
+  background-size: 100% 100%;
+  opacity: .8;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/WebStormZone\/IT\/task15\/module\/vocation_info\/vi_style\.less}line{font-family:\00003158}}
+.whole-vocation:hover .hover-bg .hover-title {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 16px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/WebStormZone\/IT\/task15\/module\/vocation_info\/vi_style\.less}line{font-family:\00003163}}
+.whole-vocation:hover .hover-bg .hover-content {
+  margin: 10px 20px 20px;
+  font-size: 12px;
+}
+/*# sourceMappingURL=vi_style.css.map */

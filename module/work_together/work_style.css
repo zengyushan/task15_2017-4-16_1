@@ -1,0 +1,33 @@
+/* 子元素靠左叠加，类似于float:left */
+/* 使两边的元素靠边，所有元素之间间距平分 */
+/* 垂直居中 */
+/* 水平居中 */
+/* 垂直水平居中 */
+/* 强制不换行 */
+/* 自动换行 */
+/* 强制英文单词断行 */
+/* 隐藏 */
+/* 显现 */
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/WebStormZone\/IT\/task15\/module\/work_together\/work_style\.less}line{font-family:\0000326}}
+.single-company {
+  display: inline-block;
+  text-align: center;
+  width: 122px;
+  height: 100px;
+  border-top: 1px solid #f6f6f6;
+  border-left: 1px solid #f6f6f6;
+  border-bottom: 1px solid #f6f6f6;
+  border-right: 1px solid #f6f6f6;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/WebStormZone\/IT\/task15\/module\/work_together\/work_style\.less}line{font-family:\0000332}}
+.single-company img {
+  width: 100px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/F\:\/WebStormZone\/IT\/task15\/module\/work_together\/work_style\.less}line{font-family:\0000336}}
+.single-company:hover {
+  z-index: 999999;
+  -webkit-box-shadow: -5px 0 15px #f1f1f1, 5px 0 15px #f1f1f1, 0 -5px 15px #f1f1f1, 0 5px 15px #f1f1f1;
+  -moz-box-shadow: -5px 0 15px #f1f1f1, 5px 0 15px #f1f1f1, 0 -5px 15px #f1f1f1, 0 5px 15px #f1f1f1;
+  box-shadow: -5px 0 15px #f1f1f1, 5px 0 15px #f1f1f1, 0 -5px 15px #f1f1f1, 0 5px 15px #f1f1f1;
+}
+/*# sourceMappingURL=work_style.css.map */
